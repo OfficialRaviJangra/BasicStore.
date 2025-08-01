@@ -4,9 +4,9 @@ import CategoryCard from './CategoryCard'
 import TopSellingCard from './TopSellingCard'
 const Categories = () => {
     return (
-        <section className='w-full h-screen md:px-25'>
+        <section className='w-full md:px-25'>
             <div>
-                <h1 className='text-center text-[24px] font-semibold max-md:mt-7'>Our Categories</h1>
+                <h1>Our Categories</h1>
                 <div className='grid grid-cols-1 md:grid-cols-4 p-4 gap-10 md:gap-5'>
                     {categories.map((category) => (
                         <CategoryCard key={category.id} name={category.name} image={category.image} items={category.items} />

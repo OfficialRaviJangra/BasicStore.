@@ -19,4 +19,11 @@ body {
   li{
     @apply text-[10px] text-black font-semibold uppercase cursor-pointer hover:text-orange-300 duration-200
   }
+  button{
+    @apply bg-white text-black px-8 py-3 rounded-full text-[8px] font-semibold uppercase tracking-widest mt-8 cursor-pointer hover:bg-black hover:text-white duration-200
+  }
+
+  h1{
+    @apply text-center text-[24px] font-semibold max-md:mt-7
+  }
 }

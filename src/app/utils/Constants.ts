@@ -108,3 +108,41 @@ export const products = [
     "stock": 14
   },
 ]
+
+export const offers = [
+  {
+    "id": 1,
+    "title": "20% Off Laptops",
+    "description": "Products on sale for a limited time only.",
+    "image": "/images/offers_images/laptops.jpg",
+    "button_text": "Shop it Now"
+  },
+  {
+    "id": 2,
+    "title": "Apple Collection",
+    "description": "Get your best Apple products.",
+    "image": "/images/offers_images/apple_products.jpg",
+    "button_text": "Apple Collection"
+  },
+]
+
+export const testimonials = [
+  {
+    "id": 1,
+    "name": "John Doe",
+    "review": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "review": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "rating": 5,
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "review": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "rating": 4.5
+  }
+]
