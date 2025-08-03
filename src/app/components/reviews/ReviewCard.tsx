@@ -1,4 +1,4 @@
-"useclient"
+"use client"
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa"
 interface review {
     name: string,

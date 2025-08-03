@@ -146,3 +146,24 @@ export const testimonials = [
     "rating": 4.5
   }
 ]
+
+export const posts = [
+  {
+    "id": 1,
+    "title": "Introducing the New iPhone 15",
+    "sub_title": "Feb 23 - Technology",
+    "image": "/images/posts_images/mobiles.jpg",
+  },
+  {
+    "id": 2,
+    "title": "Top 5 Smartwatches of 2023",
+    "sub_title": "Aug 30 - Watches",
+    "image": "/images/posts_images/watches.jpg",
+  },
+  {
+    "id": 3,
+    "title": "Accessories you should have",
+    "sub_title": "Aug 15 - Accessories",
+    "image": "/images/posts_images/accessories.jpg",
+  }
+]

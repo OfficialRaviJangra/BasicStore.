@@ -1,11 +1,11 @@
-import React from 'react'
+"use client"
 import { offers, testimonials } from '../../utils/Constants'
 import OfferCard from '../offercard/OfferCard'
 import ReviewCard from './ReviewCard'
 
 const CustomerReview = () => {
     return (
-        <section className='flex flex-col w-full h-screen px-8 md:px-25 py-15 gap-20'>
+        <section className='flex flex-col w-full h-fit px-8 md:px-25 py-15 gap-20'>
             <div className='flex flex-col md:flex-row gap-6'>
                 {offers.map((offer) => (
                     <OfferCard

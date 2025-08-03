@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+
 const Hero = () => {
     return (
         <section className='w-full h-[90vh] flex items-center justify-center md:px-25 md:pb-10'>
