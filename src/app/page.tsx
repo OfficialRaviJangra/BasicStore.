@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Categories from "./components/category/Categories";
 import CustomerReview from "./components/reviews/CustomerReview";
 import Posts from "./components/Posts/Posts";
+import Newsletter from "./components/newsletter/Newsletter";
 export default function Home() {
   return (
     <main>
@@ -12,6 +13,7 @@ export default function Home() {
       <Categories />
       <CustomerReview />
       <Posts />
+      <Newsletter />
     </main>
   );
 }

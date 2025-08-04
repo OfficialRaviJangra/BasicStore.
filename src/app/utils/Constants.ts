@@ -1,3 +1,4 @@
+
 export const categories = [
     {
         id : 1,
@@ -165,5 +166,32 @@ export const posts = [
     "title": "Accessories you should have",
     "sub_title": "Aug 15 - Accessories",
     "image": "/images/posts_images/accessories.jpg",
+  }
+]
+
+export const features = [
+  {
+    "id": 1,
+    "title": "Free Shipping",
+    "description": "On all orders over $50",
+    "icon": "<PiShoppingCartSimpleLight/>"
+  },
+  {
+    "id": 2,
+    "title": "Quality Guarantee",
+    "description": "We stand by our products",
+    "icon": "<PiTrophyLight/>"
+  },
+  {
+    "id": 3,
+    "title": "Secure Payments",
+    "description": "Your payment information is safe with us",
+    "icon": "<RiSecurePaymentFill/>"
+  },
+  {
+    "id": 4,
+    "title": "Daily offers",
+    "description": "Get the best deals every day",
+    "icon": "<BsFillTagFill/>"
   }
 ]
